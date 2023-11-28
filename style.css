@@ -1,21 +1,22 @@
 /* General styles */
 
 body {
-  font-family: sans-serif;
+  font-family: "BM Swiss Coffee", sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f0e68c; /* Alabaster */
-  color: #333333; /* Coffee */
+  color: #000000; /* Black */
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: "BM Swiss Coffee", sans-serif;
   font-weight: bold;
   color: #333333; /* Coffee */
 }
 
 p {
   margin-bottom: 10px;
-  color: #333333; /* Coffee */
+  color: #000000; /* Black */
 }
 
 ul {
@@ -26,7 +27,7 @@ ul {
 
 li {
   margin-bottom: 10px;
-  color: #333333; /* Coffee */
+  color: #000000; /* Black */
 }
 
 a {
@@ -42,8 +43,8 @@ a:hover {
 /* Header styles */
 
 header {
-  background-color: #795548; /* Eggplant */
-  color: #f0e68c; /* Alabaster */
+  background-color: #624428; /* Atmospheric 6505 */
+  color: #333333; /* Coffee */
   padding: 20px;
   text-align: center;
 }
@@ -57,19 +58,23 @@ h1 {
 
 main {
   display: flex;
+  justify-content: space-between; /* Equal spacing between the left and right sides */
 }
 
 .left-side {
   width: 25%;
-  background-color: #624428; /* Sand */
+  background-color: #000000; /* Black */
   padding: 20px;
-  color: #333333; /* Coffee */
+  color: #f0e68c; /* Alabaster */
+  text-align: justify; /* Justify the text to fill the width of the container */
 }
 
 .right-side {
   width: 75%;
+  background-color: #f0e68c; /* Alabaster */
   padding: 20px;
-  color: #333333; /* Coffee */
+  color: #000000; /* Black */
+  text-align: left; /* Left-align the text within the container */
 }
 
 /* Content styles */
@@ -77,7 +82,7 @@ main {
 section {
   border: 1px solid #ccc;
   margin-bottom: 20px;
-  color: #333333; /* Coffee */
+  color: #000000; /* Black */
 }
 
 h2 {
@@ -85,4 +90,8 @@ h2 {
   font-weight: bold;
   margin-bottom: 10px;
   color: #333333; /* Coffee */
+}
+
+h2 + p {
+  margin-top: 0; /* Remove the default margin between headings and paragraphs */
 }
