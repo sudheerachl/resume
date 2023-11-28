@@ -37,7 +37,7 @@ a:hover {
 /* Header styles */
 
 header {
-  background-color: #007bff;
+  background-color: #000a30; /* Dark navy blue */
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -47,58 +47,27 @@ h1 {
   font-size: 24px;
 }
 
-/* Profile styles */
+/* Main styles */
 
-.profile {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.profile img {
-  width: 150px;
-  height: auto;
-  border-radius: 50%;
-}
-
-.profile h2 {
-  font-size: 22px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.profile p {
-  font-size: 16px;
-  margin-bottom: 0;
-}
-
-/* Contact styles */
-
-.contact {
-  text-align: center;
-}
-
-.contact ul {
+main {
   display: flex;
-  justify-content: space-around;
 }
 
-.contact ul li {
-  margin-bottom: 0;
+.left-side {
+  width: 25%;
+  background-color: #001a60; /* Slightly lighter shade of navy blue */
+  padding: 20px;
 }
 
-.contact ul li i {
-  margin-right: 5px;
+.right-side {
+  width: 75%;
+  padding: 20px;
 }
 
 /* Content styles */
 
-main {
-  padding: 20px;
-}
-
 section {
   border: 1px solid #ccc;
-  padding: 20px;
   margin-bottom: 20px;
 }
 
@@ -108,45 +77,39 @@ h2 {
   margin-bottom: 10px;
 }
 
+/* Skills and languages styles */
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .skills-list li {
-  display: inline-block;
   margin-right: 10px;
   padding: 5px 10px;
   background-color: #eee;
   border-radius: 5px;
 }
 
-.education-item {
+/* Other sections styles */
+
+.education-item,
+.work-item,
+.certificates-list {
   margin-bottom: 10px;
 }
 
-.education-item h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-.education-item p {
-  font-size: 16px;
-  margin-bottom: 0;
-}
-
-.work-item {
-  margin-bottom: 10px;
-}
-
+.education-item h3,
 .work-item h3 {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 5px;
 }
 
-.work-item p {
-  font-size: 16px;
-  margin-bottom: 0;
-}
-
+.education-item p,
+.work-item p,
 .certificates-list li {
+  font-size: 16px;
   margin-bottom: 0;
 }
 
