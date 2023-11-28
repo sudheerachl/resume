@@ -13,7 +13,16 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   color: #6f4e37; /* Coffee */
 }
-
+h7 {
+  font-family: "BM Swiss Coffee", sans-serif;
+  font-weight: bold;
+  color: #D7D6CE;
+}
+h8 {
+  font-family: "BM Swiss Coffee", sans-serif;
+  font-weight: bold;
+  color: #f2f0e6;
+}
 p {
   margin-bottom: 10px;
   color: #000000; /* Black */
@@ -43,7 +52,7 @@ a:hover {
 /* Header styles */
 
 header {
-  background-color: #C1DAE0; /* Atmospheric 6505 */
+  background-color: #D7D6CE;/*moonshine oc*/
   color: #6f4e37; /* Coffee */
   padding: 20px;
   text-align: center;
