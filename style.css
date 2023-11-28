@@ -4,15 +4,18 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #fff;
+  background-color: #f0e68c; /* Alabaster */
+  color: #333333; /* Coffee */
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
+  color: #333333; /* Coffee */
 }
 
 p {
   margin-bottom: 10px;
+  color: #333333; /* Coffee */
 }
 
 ul {
@@ -23,28 +26,31 @@ ul {
 
 li {
   margin-bottom: 10px;
+  color: #333333; /* Coffee */
 }
 
 a {
-  color: #007bff;
+  color: #795548; /* Eggplant */
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+  color: #b9845d; /* Darker eggplant */
 }
 
 /* Header styles */
 
 header {
-  background-color: #000a30; /* Dark navy blue */
-  color: #fff;
+  background-color: #795548; /* Eggplant */
+  color: #f0e68c; /* Alabaster */
   padding: 20px;
   text-align: center;
 }
 
 h1 {
   font-size: 24px;
+  color: #f0e68c; /* Alabaster */
 }
 
 /* Main styles */
@@ -55,13 +61,15 @@ main {
 
 .left-side {
   width: 25%;
-  background-color: #001a60; /* Slightly lighter shade of navy blue */
+  background-color: #624428; /* Sand */
   padding: 20px;
+  color: #333333; /* Coffee */
 }
 
 .right-side {
   width: 75%;
   padding: 20px;
+  color: #333333; /* Coffee */
 }
 
 /* Content styles */
@@ -69,55 +77,12 @@ main {
 section {
   border: 1px solid #ccc;
   margin-bottom: 20px;
+  color: #333333; /* Coffee */
 }
 
 h2 {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 10px;
-}
-
-/* Skills and languages styles */
-
-.skills-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.skills-list li {
-  margin-right: 10px;
-  padding: 5px 10px;
-  background-color: #eee;
-  border-radius: 5px;
-}
-
-/* Other sections styles */
-
-.education-item,
-.work-item,
-.certificates-list {
-  margin-bottom: 10px;
-}
-
-.education-item h3,
-.work-item h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-.education-item p,
-.work-item p,
-.certificates-list li {
-  font-size: 16px;
-  margin-bottom: 0;
-}
-
-/* Footer styles */
-
-footer {
-  background-color: #f2f2f2;
-  color: #666;
-  padding: 20px;
-  text-align: center;
+  color: #333333; /* Coffee */
 }
