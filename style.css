@@ -4,14 +4,14 @@ body {
   font-family: "BM Swiss Coffee", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f0e68c; /* Alabaster */
+  background-color: #f2f0e6; /* Alabaster */
   color: #000000; /* Black */
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "BM Swiss Coffee", sans-serif;
   font-weight: bold;
-  color: #333333; /* Coffee */
+  color: #6f4e37; /* Coffee */
 }
 
 p {
@@ -31,7 +31,7 @@ li {
 }
 
 a {
-  color: #795548; /* Eggplant */
+  color: #614051; /* Eggplant */
   text-decoration: none;
 }
 
@@ -43,15 +43,15 @@ a:hover {
 /* Header styles */
 
 header {
-  background-color: #624428; /* Atmospheric 6505 */
-  color: #333333; /* Coffee */
+  background-color: #C1DAE0; /* Atmospheric 6505 */
+  color: #6f4e37; /* Coffee */
   padding: 20px;
   text-align: center;
 }
 
 h1 {
   font-size: 24px;
-  color: #f0e68c; /* Alabaster */
+  color: #f2f0e6; /* Alabaster */
 }
 
 /* Main styles */
@@ -65,13 +65,13 @@ main {
   width: 25%;
   background-color: #000000; /* Black */
   padding: 20px;
-  color: #f0e68c; /* Alabaster */
+  color:#f2f0e6; /* Alabaster */
   text-align: justify; /* Justify the text to fill the width of the container */
 }
 
 .right-side {
   width: 75%;
-  background-color: #f0e68c; /* Alabaster */
+  background-color: #f2f0e6; /* Alabaster */
   padding: 20px;
   color: #000000; /* Black */
   text-align: left; /* Left-align the text within the container */
@@ -89,7 +89,7 @@ h2 {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #333333; /* Coffee */
+  color: #6f4e37; /* Coffee */
 }
 
 h2 + p {
