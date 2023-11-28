@@ -1,4 +1,38 @@
 /* General styles */
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0e68c;
+  color: #333333;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.contact-info {
+  margin-top: 10px;
+}
+
+.contact-info span {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.github-link {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #795548;
+  text-decoration: none;
+}
+
+.github-link:hover {
+  text-decoration: underline;
+}
 
 body {
   font-family: "BM Swiss Coffee", sans-serif;
