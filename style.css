@@ -106,8 +106,7 @@ h1 {
 main {
  display: flex;
  justify-content: space-between; /* Equal spacing between the left and right sides */
- flex-direction: column;
-  min-height: 100vh;
+
 }
 
 .left-side {
