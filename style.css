@@ -106,6 +106,8 @@ h1 {
 main {
  display: flex;
  justify-content: space-between; /* Equal spacing between the left and right sides */
+ flex-direction: column;
+  min-height: 100vh;
 }
 
 .left-side {
@@ -144,4 +146,7 @@ h2 {
 
 h2 + p {
  margin-top: 0; /* Remove the default margin between headings and paragraphs */
+}
+footer {
+  margin-top: auto; /* Push them to the bottom */
 }
