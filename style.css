@@ -1,151 +1,147 @@
 /* General styles */
 header {
-  text-align: center;
-  padding: 20px;
-  background-color: #f0e68c;
-  color: #333333;
+ text-align: center;
+ padding: 20px;
+ background-color: #f0e68c;
+ color: #333333;
 }
 
 .name {
-  font-size: 24px;
-  font-weight: bold;
-  letter-spacing: 5px;
-  text-transform: uppercase;
+ font-size: 24px;
+ font-weight: bold;
+ letter-spacing: 5px;
+ text-transform: uppercase;
 }
 
 .contact-info {
-  margin-top: 10px;
+ margin-top: 10px;
 }
 
 .contact-info span {
-  display: inline-block;
-  margin-right: 20px;
+ display: inline-block;
+ margin-right: 20px;
 }
 
 .github-link {
-  display: block;
-  text-align: center;
-  margin-top: 20px;
-  color: #795548;
-  text-decoration: none;
+ display: block;
+ text-align: center;
+ margin-top: 20px;
+ color: #795548;
+ text-decoration: none;
 }
 
 .github-link:hover {
-  text-decoration: underline;
+ text-decoration: underline;
 }
 
 body {
-  font-family: "BM Swiss Coffee", sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f2f0e6; /* Alabaster */
-  color: #000000; /* Black */
+ font-family: "BM Swiss Coffee", sans-serif;
+ margin: 0;
+ padding: 0;
+ background-color: #f2f0e6; /* Alabaster */
+ color: #000000; /* Black */
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "BM Swiss Coffee", sans-serif;
-  font-weight: bold;
-  color: #6f4e37; /* Coffee */
+ font-family: "BM Swiss Coffee", sans-serif;
+ font-weight: bold;
+ color: #6f4e37; /* Coffee */
 }
 h7 {
-  font-family: "BM Swiss Coffee", sans-serif;
-  font-weight: bold;
-  color: #D7D6CE;
+ font-family: "BM Swiss Coffee", sans-serif;
+ font-weight: bold;
+ color: #D7D6CE;
 }
 h8 {
-  font-family: "BM Swiss Coffee", sans-serif;
-  font-weight: bold;
-  color: #f2f0e6;
+ font-family: "BM Swiss Coffee", sans-serif;
+ font-weight: bold;
+ color: #f2f0e6;
 }
 p {
-  margin-bottom: 10px;
-  color: #000000; /* Black */
+ margin-bottom: 10px;
+ color: #000000; /* Black */
 }
 
 ul {
-  list-style-type: disc; /* Change list style to 'disc' for dotted points */
-  padding: 0;
-  margin: 0;
+ list-style-type: disc; /* Change list style to 'disc' for dotted points */
+ padding: 0;
+ margin: 0;
 }
 
 li {
-   display: block; /* Make list items block-level elements for line breaks */
-  margin-bottom: 10px;
-  color: #D6D8Cf;
+  display: block; /* Make list items block-level elements for line breaks */
+ margin-bottom: 10px;
+ color: #D6D8Cf;
 }
 li1 {
-  margin-bottom: 10px;
-  color: #000000; /* Black */
+ margin-bottom: 10px;
+ color: #000000; /* Black */
 }
 
 a {
-  color: #614051; /* Eggplant */
-  text-decoration: none;
+ color: #614051; /* Eggplant */
+ text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
-  color: #b9845d; /* Darker eggplant */
+ text-decoration: underline;
+ color: #b9845d; /* Darker eggplant */
 }
 
 /* Header styles */
 
 header {
-  background-color: #D6D8Cf;/*moonshine oc*/
-  padding: 20px;
-  text-align: center;
+ background-color: #D6D8Cf;/*moonshine oc*/
+ padding: 20px;
+ text-align: center;
 }
 
 h1 {
-  font-size: 24px;
-  color: #6f4e37; /* Alabaster */
+ font-size: 24px;
+ color: #6f4e37; /* Alabaster */
 }
 
 /* Main styles */
 
 main {
-  display: flex;
-  justify-content: space-between; /* Equal spacing between the left and right sides */
-}
-.trainings, footer {
-  margin-top: auto; /* Push them to the bottom */
-  width: 100%; /* Ensure they span the entire width */
+ display: flex;
+ justify-content: space-between; /* Equal spacing between the left and right sides */
 }
 
 .left-side {
-  width: 25%;
-  background-color: #6f4e37; /* Coffee */
-  padding: 20px;
+ width: 25%;
+ background-color: #6f4e37; /* Coffee */
+ padding: 20px;
  
-  text-align: justify; /* Justify the text to fill the width of the container */
+ text-align: justify; /* Justify the text to fill the width of the container */
 }
 .left-side ul {
-  list-style-type: disc; /* Change list style to 'disc' for dotted points */
+ list-style-type: disc; /* Change list style to 'disc' for dotted points */
 }
 
 .right-side {
-  width: 75%;
-  background-color: #f2f0e6; /* Alabaster */
-  padding: 20px;
-  color: #000000; /* Black */
-  text-align: left; /* Left-align the text within the container */
+ width: 75%;
+ background-color: #f2f0e6; /* Alabaster */
+ padding: 20px;
+ color: #000000; /* Black */
+ text-align: left; /* Left-align the text within the container */
 }
 
 /* Content styles */
 
 section {
-  border: 1px solid #ccc;
-  margin-bottom: 20px;
-  color: #000000; /* Black */
+ border: 1px solid #ccc;
+ margin-bottom: 20px;
+ color: #000000; /* Black */
 }
 
 h2 {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: #6f4e37; /* Coffee */
+ font-size: 20px;
+ font-weight: bold;
+ margin-bottom: 10px;
+ color: #6f4e37; /* Coffee */
 }
 
 h2 + p {
-  margin-top: 0; /* Remove the default margin between headings and paragraphs */
+ margin-top: 0; /* Remove the default margin between headings and paragraphs */
 }
