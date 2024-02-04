@@ -107,6 +107,10 @@ main {
   display: flex;
   justify-content: space-between; /* Equal spacing between the left and right sides */
 }
+.trainings, footer {
+  margin-top: auto; /* Push them to the bottom */
+  width: 100%; /* Ensure they span the entire width */
+}
 
 .left-side {
   width: 25%;
