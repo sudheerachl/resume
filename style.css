@@ -45,17 +45,17 @@ body {
 h1, h2, h3, h4, h5, h6 {
  font-family: "BM Swiss Coffee", sans-serif;
  font-weight: bold;
- color: #6f4e37; /* Coffee */
+ color: #293241; /* Coffee */
 }
 h7 {
  font-family: "BM Swiss Coffee", sans-serif;
  font-weight: bold;
- color: #D7D6CE;
+ color:#98c1d9;
 }
 h8 {
  font-family: "BM Swiss Coffee", sans-serif;
  font-weight: bold;
- color: #f2f0e6;
+ color: #e0fbfc;
 }
 p {
  margin-bottom: 10px;
