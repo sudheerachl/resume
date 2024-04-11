@@ -70,7 +70,7 @@ ul {
 
 li {
   display: block; /* Make list items block-level elements for line breaks */
- margin-bottom: 10px;
+ margin-bottom: 5px;/*change made from 10 to 5*/
  color: #D6D8Cf;
 }
 li1 {
